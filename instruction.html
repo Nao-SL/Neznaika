@@ -16,14 +16,28 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4"><a href="index.html">Главная</a></div>
-            <div class="col-lg-4"><a href="instruction.html">Инструкция</a></div>
-            <div class="col-lg-4"><a href="mesta.html">Поиск мест</a></div>
-        </div>
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Континенты</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="continents/Africa.html">Африка</a></li>
+                    <li><a class="dropdown-item" href="continents/Antarctica.html">Антарктида</a></li>
+                    <li><a class="dropdown-item" href="continents/Asia.html">Азия</a></li>
+                    <li><a class="dropdown-item" href="continents/Australia.html">Австралия</a></li>
+                    <li><a class="dropdown-item" href="continents/Europe.html">Европа</a></li>
+                    <li><a class="dropdown-item" href="continents/NorthAmerica.html">Северная Америка</a></li>
+                    <li><a class="dropdown-item" href="continents/SouthAmerica.html">Южная Америка</a></li>
+                </ul>
+                </li>
+                <li class="nav-item"><a href="instruction.html" class="nav-link active">Инструкция</a></li>
+                <li class="nav-item"><a href="mesta.html" class="nav-link">Поиск мест</a></li>
+            </ul>
+        </header>
         <h1>Инструкция по поиску информации</h1>
         <p>Здесь вы узнаете....</p>
     </div>
 </body>
+
 
 </html>
